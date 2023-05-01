@@ -4,7 +4,7 @@ this is not a cheat, this just utilises the -netconport launch option which allo
 
 using this, i run the name and status commands to get the players in the current server and parse their rank information on csgostats.gg
 
-![image_rankreveal](https://user-images.githubusercontent.com/64217088/235523644-dacf5c4f-a639-4b44-ba88-50c9c3b46d87.png)
+![image_rankreveal](https://user-images.githubusercontent.com/64217088/235525381-694170f2-372b-4c35-a141-5edfe6daf634.png)
 
 ## setup for main.py
 
