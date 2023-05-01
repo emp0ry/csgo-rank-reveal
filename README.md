@@ -11,4 +11,4 @@ using this, i run the name and status commands to get the players in the current
 - install the requirements: `pip install -r requirements.txt`
 - add the launch option `-netconport 2121` to csgo
  
-#### Inspired by this source code https://github.com/f0e/csgo-rank-reveal
+#### Inspired by this source codes https://github.com/f0e/csgo-rank-reveal and https://github.com/Porvil/CSGO-Rank-Finder
