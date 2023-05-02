@@ -1,10 +1,10 @@
 # CS:GO Rank Reveal without Cheats!
 
-this is not a cheat, this just utilises the -netconport launch option which allows for applications to connect to the game's console and read and send console commands.
+This is not a cheat, this just utilises the -netconport launch option which allows for applications to connect to the game's console and read and send console commands.
 
 using this, i run the name and status commands to get the players in the current server and parse their rank information on csgostats.gg
 
-![image_rankreveal](https://user-images.githubusercontent.com/64217088/235525381-694170f2-372b-4c35-a141-5edfe6daf634.png)
+![image_rankreveal](https://user-images.githubusercontent.com/64217088/235804070-0f90639f-28fe-4660-97f5-e8d6cf29efe8.png)
 
 ## setup for main.py
 
