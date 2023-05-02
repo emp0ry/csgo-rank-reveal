@@ -204,7 +204,7 @@ class RankRevealApp(ctk.CTk):
     def rank_reveal(self):
         players = self.get_players()
         column_list = list()
-        column_list.append(['', 'Player', '     Rank', 'Best Rank', 'MM Wins', 'Win Rate', 'HS%', 'K/D', '    Faceit Elo', ''])
+        column_list.append(['', 'Player', '     Rank', 'Best Rank', 'MM Wins', 'Win Rate', 'HS%', 'K/D', '  Faceit Elo', ''])
 
         if not players:
             print("no players in server")
@@ -249,13 +249,13 @@ class RankRevealApp(ctk.CTk):
                             entry.configure(state='disabled')
                     elif j == 8:
                         if i == 0:
-                            entry = ctk.CTkEntry(self, width=200/3 + 80/2.7, bg_color='#565B5E')
+                            entry = ctk.CTkEntry(self, width=160/3 + 80/2.7, bg_color='#565B5E')
                             entry.grid(row=i, column=j, columnspan=2)
                             entry.insert(ctk.END, column_list[i][j])
                             entry.configure(state='disabled')
                         else:
                             if column_list[i][j] == None and column_list[i][j + 1] == '':
-                                entry = ctk.CTkEntry(self, width=200/3 + 80/2.7, bg_color='#565B5E')
+                                entry = ctk.CTkEntry(self, width=160/3 + 80/2.7, bg_color='#565B5E')
                                 entry.grid(row=i, column=j, columnspan=2)
                                 entry.insert(ctk.END, '')
                                 entry.configure(state='disabled')
@@ -263,7 +263,7 @@ class RankRevealApp(ctk.CTk):
                                 faceit_level_image = ctk.CTkImage(Image.open(BytesIO(requests.get(f'https://faceitaccount.com/wp-content/themes/kadence/faceit/assets/ranks/skill_level_{column_list[i][j]}_lg.png').content)), size=(80/2.7, 80/2.7))
                                 faceit_level_label = ctk.CTkLabel(self, text='', image=faceit_level_image, bg_color='#565B5E')
                                 faceit_level_label.grid(row=i, column=j)
-                                entry = ctk.CTkEntry(self, width=200/3, bg_color='#565B5E')
+                                entry = ctk.CTkEntry(self, width=160/3, bg_color='#565B5E')
                                 entry.grid(row=i, column=j + 1)
                                 entry.insert(ctk.END, column_list[i][j + 1])
                                 entry.configure(state='disabled')
