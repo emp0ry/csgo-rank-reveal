@@ -1,0 +1,6 @@
+beautifulsoup4==4.11.1
+cloudscraper==1.2.71
+customtkinter==5.1.2
+Pillow==9.5.0
+Requests==2.29.0
+steamid_converter==1.0.1
