@@ -11,6 +11,7 @@ import json
 import os
 import re
 os.system('cls')
+winsound.Beep(600, 250)
 
 class RankRevealApp(ctk.CTk):
     def __init__(self):
