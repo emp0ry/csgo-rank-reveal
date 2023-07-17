@@ -5,7 +5,6 @@ This is not a cheat, this just utilises the -netconport launch option which allo
 ![image_rankreveal](https://user-images.githubusercontent.com/64217088/235806028-300aee8b-fbae-42fd-8775-f707de37a09f.png)
 
 ## setup for main.py
-
 - install the requirements: `pip install -r requirements.txt`
 - add the launch option `-netconport 2121` to csgo
  
